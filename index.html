@@ -16,53 +16,52 @@
 <body>
         <nav id="main-menu">
             <ul class="nav-bar">
-                <li class="nav-button-home"><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Frobcmyk.github.io%2FHotel%2F">Validity Check</a></li>
-                <li class="nav-button-services"><a href="https://github.com/RobCMYK/Hotel">Source Code</a></li>
+                <li class="nav-button-home"><a target="_blank" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Frobcmyk.github.io%2FHotel%2F">Validity Check</a></li>
+                <li class="nav-button-services"><a target="_blank" href="https://github.com/RobCMYK/Hotel">Source Code</a></li>
             </ul>
-        </nav>
-        
-        <div class="logo">
-            <img src="barryblox.png" alt="barryblox">
-        </div>
-        
+        </nav>  
+    <div class="container">
+        <div class="form-content">
+            <div class="logo">
+                <img src="barryblox.png" alt="barryblox">
+            </div>
+            <div class="box">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3 card mt-3" style="background-color: rgb(48, 48, 48);">
 
-        <div class="box">
-            <div class="row">
-                <div class="col-md-6 offset-md-3 card mt-3">
+            <h3 class="card-title">Create your free Barryblox account!</h3>
+            <form style="background-color: rgb(48, 48, 48);">
+            <div class="mb-3 mt-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+            <div class="mb-3">
+                <label for="pwd" class="form-label">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+            </div>
+            <div class="form-check mb-3">
+                <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                </label>
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="radio1" name="optradio" value="A">Male
+                <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="radio2" name="optradio" value="B">Female
+                <label class="form-check-label" for="radio2"></label>
+            </div>
+            <label for="date" class="form-label">Enter your birthdate:</label>
+            <input type="date" id="date" class="form-select mb-3" aria-label="Default select example">
 
-        <h3 class="card-title">Create your free Barryblox account!</h3>
-        <form>
-        <div class="mb-3 mt-3">
-            <label for="email" class="form-label">Email:</label>
-            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-        </div>
-        <div class="mb-3">
-            <label for="pwd" class="form-label">Password:</label>
-            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
-        </div>
-        <div class="form-check mb-3">
-            <label class="form-check-label">
-            <input class="form-check-input" type="checkbox" name="remember"> Remember me
-            </label>
-        </div>
-        <div class="form-check">
-            <input type="radio" class="form-check-input" id="radio1" name="optradio" value="A">Male
-            <label class="form-check-label" for="radio1"></label>
-        </div>
-        <div class="form-check">
-            <input type="radio" class="form-check-input" id="radio2" name="optradio" value="B">Female
-            <label class="form-check-label" for="radio2"></label>
-        </div>
-        <label for="date" class="form-label">Enter your birthdate:</label>
-        <input type="date" id="date" class="form-select mb-3" aria-label="Default select example">
-
-        <button id="formSubmit" type="submit" class="btn btn-primary">Submit</button>
-        </form>
+            <button id="formSubmit" type="submit" class="btn btn-primary">Submit</button>
+            </form>
+                    </div>
                 </div>
             </div>
         </div>
-    
-    
+    </div>
     
     
     
